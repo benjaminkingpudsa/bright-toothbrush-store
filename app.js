@@ -1,6 +1,6 @@
 const products=[
- {sku:"TB001",name:"แปรงสีฟันขนนุ่ม",desc:"ขนนุ่มพิเศษ อ่อนโยนต่อเหงือก เหมาะสำหรับใช้ทุกวัน",price:39,stock:50,image:"assets/brush-soft.svg"},
- {sku:"TB002",name:"แปรงสีฟันไม้ไผ่",desc:"ด้ามจับไม้ไผ่ ดีไซน์เรียบง่าย เป็นธรรมชาติ",price:59,stock:35,image:"assets/brush-bamboo.svg"}
+ {sku:"TB001",name:"แปรงสีฟันขนนุ่ม",desc:"ขนนุ่มพิเศษ อ่อนโยนต่อเหงือก เหมาะสำหรับใช้ทุกวัน",price:39,stock:50,image:"assets/brush-soft.jpg"},
+ {sku:"TB002",name:"แปรงสีฟันไม้ไผ่",desc:"ด้ามจับไม้ไผ่ ดีไซน์เรียบง่าย เป็นธรรมชาติ",price:59,stock:35,image:"assets/brush-bamboo.jpg"}
 ];
 let cart={};let orders=JSON.parse(localStorage.getItem("brightOrders")||"[]");
 const money=n=>"฿"+Number(n).toLocaleString("th-TH");
